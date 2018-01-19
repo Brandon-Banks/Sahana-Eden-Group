@@ -1,4 +1,5 @@
 #BB
+# Gives the user access and permission to enter a group, as long as they get enough votes
 # coding: utf8
 
 """

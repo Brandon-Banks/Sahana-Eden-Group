@@ -1,3 +1,4 @@
+#BB
 # -*- coding: utf-8 -*-
 
 """
@@ -12,7 +13,7 @@
         ("*/*", "/eden/errors/index"),
     ]
 
-    NOTE: if Eden is installed elsewhere or exists under different name in applications folder,
+    NOTE: if Eden is installed elsewhere or exists under a different name in applications folder,
           just rename it in above list. Comment the last route to disable error
           catching for other apps in the same web2py environment
 
@@ -36,8 +37,8 @@ error_messages = {
         T("Try refreshing the page or hitting the back button on your browser.")]),
 
   500:(T("Oops! something went wrong on our side."),
-       [T("Try hitting refresh/reload button or trying the URL from the address bar again."),
-        T("Please come back after sometime if that doesn\'t help.")]),
+       [T("Try hitting the refresh/reload button or trying the URL from the address bar again."),
+        T("Please come back after sometime if that doesn't help.")]),
 
   502:(T("Sorry, something went wrong."),
        [T("The server received an incorrect response from another server that it was accessing to fill the request by the browser."),

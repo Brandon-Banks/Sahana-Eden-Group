@@ -1,7 +1,6 @@
 #BB
+# A virtual toe tag for identifying victims in disasters, and storing their information
 # -*- coding: utf-8 -*-
-
-""" Disaster Victim Identification, Controllers """
 
 module = request.controller
 resourcename = request.function

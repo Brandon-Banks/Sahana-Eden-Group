@@ -1,4 +1,5 @@
 #BB
+# Keeps track of all of the information they currently have on diseases in their database. Also keeps track of contacts information.
 # -*- coding: utf-8 -*-
 
 """

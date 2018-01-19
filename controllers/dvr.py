@@ -1,4 +1,6 @@
 #BB
+# Module for the Home Page, filter for new and existing users, takes out certain features on the homepage for those who have
+# already registered
 # -*- coding: utf-8 -*-
 
 module = request.controller

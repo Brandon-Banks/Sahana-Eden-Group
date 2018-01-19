@@ -1,4 +1,5 @@
 #BB
+# Receives uploaded data from bulk_upload() on Github, and adds it to their document library.
 # -*- coding: utf-8 -*-
 
 """

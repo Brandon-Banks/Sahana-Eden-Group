@@ -1,3 +1,4 @@
+#BB
 # -*- coding: utf-8 -*-
 
 module = request.controller

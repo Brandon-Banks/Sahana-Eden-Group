@@ -1,4 +1,5 @@
 #BB
+# Takes you to the school's summary view. The educational portion.
 # -*- coding: utf-8 -*-
 
 """

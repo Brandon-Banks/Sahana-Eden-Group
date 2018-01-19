@@ -13,14 +13,14 @@ if not settings.has_module(module):
 
 # -----------------------------------------------------------------------------
 def index():
-    """ Customisable module homepage """
+    """ Customizable module homepage """
 
     return settings.customise_home(module, alt_function="index_alt")
 
 # -----------------------------------------------------------------------------
 def index_alt():
     """
-        Fallback for module homepage when not customised and
+        Fallback for module homepage when not customized and
         no CMS content found (ADMINs will see CMS edit unless
         disabled globally via settings.cms.hide_index)
     """

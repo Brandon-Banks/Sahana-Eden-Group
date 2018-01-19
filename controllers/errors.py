@@ -1,23 +1,6 @@
 #BB
+# The error page for when a wrong URL has been entered
 # -*- coding: utf-8 -*-
-
-"""
-    HTTP Error handler -- implements nicer error pages
-
-    You need to add/replace the following to your routes.py in web2py directory
-    routes_onerror = [
-        ('eden/400', '!'),
-        ('eden/401', '!'),
-        ('eden/509', '!'),
-        ("eden/*", "/eden/errors/index"),
-        ("*/*", "/eden/errors/index"),
-    ]
-
-    NOTE: if Eden is installed elsewhere or exists under a different name in applications folder,
-          just rename it in above list. Comment the last route to disable error
-          catching for other apps in the same web2py environment
-
-"""
 
 from gluon.http import defined_status
 #s3.stylesheets.append("S3/errorpages.css")

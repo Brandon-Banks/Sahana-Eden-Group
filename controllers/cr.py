@@ -1,4 +1,5 @@
-#BB
+# BB
+# Filter task assignment to human resources and teams, add people to shelters, and filter shelters that are open
 # -*- coding: utf-8 -*-
 
 """

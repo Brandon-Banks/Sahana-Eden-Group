@@ -1,4 +1,5 @@
 #BB
+# Template for managing translations and template for responding to situations
 # -*- coding: utf-8 -*-
 
 """

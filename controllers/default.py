@@ -1,4 +1,5 @@
 #BB
+# The registration template for the homepage
 # -*- coding: utf-8 -*-
 
 """

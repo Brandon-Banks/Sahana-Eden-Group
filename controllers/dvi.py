@@ -1,5 +1,5 @@
 #BB
-# A virtual toe tag for identifying victims in disasters, and storing their information
+# A virtual toe tag for identifying victims in disasters and storing their information
 # -*- coding: utf-8 -*-
 
 module = request.controller

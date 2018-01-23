@@ -10,7 +10,6 @@ if not settings.has_module(module):
 
 # -----------------------------------------------------------------------------
 def s3_menu_postp():
-    # @todo: rewrite this for new framework
     menu_selected = []
     body_id = s3base.s3_get_last_record_id("dvi_body")
     if body_id:
